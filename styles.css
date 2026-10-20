@@ -89,7 +89,6 @@ a {
   transform: scaleX(1);
 }
 
-/* Layout Grid */
 .layout-container {
   display: flex;
   flex-direction: row;
@@ -97,6 +96,7 @@ a {
   min-height: 100vh;
   padding: 4rem;
   gap: 4rem;
+  align-items: flex-start;
 }
 
 .sidebar {
@@ -105,7 +105,8 @@ a {
    top: 10px;
   position: sticky;
   height: fit-content; 
-  padding-left: 40px;
+  padding-left: 40px;          
+  height: fit-content;
 }
 
 .content-gallery {
