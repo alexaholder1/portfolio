@@ -102,6 +102,7 @@ a {
 .sidebar {
   width: 360px;
   flex-shrink: 0;
+   top: 10px;
   position: sticky;
   height: fit-content; 
   padding-left: 40px;
